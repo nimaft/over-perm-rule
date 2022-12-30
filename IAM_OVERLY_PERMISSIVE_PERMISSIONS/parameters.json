@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "IAM_OVERLY_PERMISSIVE_PERMISSIONS",
+    "Description": "Detects overly permissive managed policies or IAM role inline policies. Triggered if sts:AssumeRole action is used with resource: '*' ",
+    "SourceRuntime": "python3.9",
+    "CodeKey": "IAM_OVERLY_PERMISSIVE_PERMISSIONS",
+    "InputParameters": "{}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::IAM::Role,AWS::IAM::Policy"
+  },
+  "Tags": "[]"
+}
