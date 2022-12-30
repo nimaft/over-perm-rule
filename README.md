@@ -5,7 +5,7 @@ AWS Config rule to detect overly permissive IAM managed policies or IAM role inl
 1. Make sure you have [rdk](https://rdk.readthedocs.io/en/latest/getting_started.html#installation) installed
 2. Clone this repository
 3. Navigate to cloned repository directory
-2. run rdk deploy IAM_OVERLY_PERMISSIVE_PERMISSIONS
+2. run `rdk deploy IAM_OVERLY_PERMISSIVE_PERMISSIONS`
 
 This will deploy your rule to AWS Config, and you can track deployment progress in your terminal. For more information, view Deploy in RDK Command Reference documentation.
 
